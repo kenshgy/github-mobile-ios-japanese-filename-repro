@@ -15,23 +15,23 @@ This repository is a minimal public reproduction case for a GitHub Mobile for iO
 .
 ├── ascii/
 │   └── hello.txt
-└── japanese-filename/
+└── 日本語ディレクトリ/
     └── こんにちは.txt
 ```
 
 ## Steps to Reproduce
 
 1. Open this repository in GitHub Mobile for iOS.
-2. Navigate to the `japanese-filename` directory.
+2. Navigate to the `日本語ディレクトリ` directory.
 3. Compare it with the `ascii` directory.
 
 ## Expected Behavior
 
-The file `こんにちは.txt` should be displayed inside the `japanese-filename` directory.
+The file `こんにちは.txt` should be displayed inside the `日本語ディレクトリ` directory.
 
 ## Actual Behavior
 
-The `japanese-filename` directory itself is visible and can be opened, but files with Japanese names are not displayed in GitHub Mobile for iOS.
+The `日本語ディレクトリ` directory itself is visible and can be opened, but files with Japanese names are not displayed in GitHub Mobile for iOS.
 
 ## Additional Notes
 
