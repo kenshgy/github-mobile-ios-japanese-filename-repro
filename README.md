@@ -1,6 +1,8 @@
-# GitHub Mobile iOS Japanese Filename Reproduction
+# GitHub Mobile (iOS) does not display Japanese-named files
 
-This repository is a minimal public reproduction case for a GitHub Mobile for iOS issue where files with Japanese names are not displayed.
+## Summary
+
+GitHub Mobile for iOS can display a directory whose name includes Japanese characters, but it does not display files whose names include Japanese characters inside that directory.
 
 ## Environment
 
@@ -8,6 +10,10 @@ This repository is a minimal public reproduction case for a GitHub Mobile for iO
 - App Version: 1.265.0
 - Device: iPhone
 - iOS Version: 26.5
+
+## Public Reproduction Repository
+
+https://github.com/kenshgy/github-mobile-ios-japanese-filename-repro
 
 ## Reproduction Structure
 
@@ -21,7 +27,7 @@ This repository is a minimal public reproduction case for a GitHub Mobile for iO
 
 ## Steps to Reproduce
 
-1. Open this repository in GitHub Mobile for iOS.
+1. Open the public reproduction repository in GitHub Mobile for iOS.
 2. Navigate to the `日本語ディレクトリ` directory.
 3. Compare it with the `ascii` directory.
 
@@ -37,3 +43,5 @@ The `日本語ディレクトリ` directory itself is visible and can be opened,
 
 - The same repository displays correctly in Safari using the GitHub web interface.
 - Files with ASCII-only names, such as `ascii/hello.txt`, work as expected.
+
+Thank you for taking a look.
