@@ -1,8 +1,8 @@
-# GitHub Mobile (iOS) does not display Japanese-named files
+# GitHub Mobile (iOS) does not display files or subdirectories inside Japanese-named directories
 
 ## Summary
 
-GitHub Mobile for iOS can display a directory whose name includes Japanese characters, but it does not display files whose names include Japanese characters inside that directory.
+GitHub Mobile for iOS can display a directory whose name includes Japanese characters, but it does not display the files or subdirectories inside that Japanese-named directory.
 
 ## Environment
 
@@ -46,11 +46,11 @@ https://github.com/kenshgy/github-mobile-ios-japanese-filename-repro
 
 ## Expected Behavior
 
-The file `こんにちは.txt` should be displayed inside the `日本語ディレクトリ` directory.
+The file `こんにちは.txt` and the subdirectory `サブディレクトリ` should be displayed inside the `日本語ディレクトリ` directory.
 
 ## Actual Behavior
 
-The `日本語ディレクトリ` directory itself is visible and can be opened, but files with Japanese names are not displayed in GitHub Mobile for iOS.
+The `日本語ディレクトリ` directory itself is visible and can be opened, but the files and subdirectories inside it are not displayed in GitHub Mobile for iOS.
 
 ## Additional Notes
 
