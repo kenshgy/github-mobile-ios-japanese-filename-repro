@@ -1,0 +1,1 @@
+Hello from a nested directory inside a Japanese-named directory.

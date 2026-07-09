@@ -1,0 +1,1 @@
+Hello from a Cyrillic-named directory.
